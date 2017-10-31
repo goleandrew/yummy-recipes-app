@@ -1,0 +1,473 @@
+div#container {
+   margin: 0 auto 0 auto;
+   position: relative;
+   text-align: left;
+   width: 1350px;
+}
+body {
+   background-attachment: fixed;
+   background-color: #FFFFFF;
+   background-image: url(../images/bg.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+a {
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited {
+   color: #800080;
+}
+a:active {
+   color: #FF0000;
+}
+a:hover {
+   color: #0000FF;
+   text-decoration: underline;
+}
+/*CSS FOR INDEX PAGE*/
+#chef2 {
+   border: 0px #000000 solid;
+   height: 100%;
+   left: 0;
+   padding: 0px 0px 0px 0px;
+   top: 0;
+   width: 100%;
+}
+#yr_quote1 {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#yr_quote1 div {
+   text-align: left;
+}
+#Line1 {
+   border-width: 0;
+   height: 41px;
+   width: 78px;
+}
+#yr_quote2 {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#yr_quote2 div {
+   text-align: left;
+}
+#signup1 {
+   background-color: #13CE66;
+   background-image: none;
+   border: 1px #13CE66 solid;
+   border-radius: 4px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 16px;
+   font-weight: bold;
+}
+#signin1 {
+   background-color: #13CE66;
+   background-image: none;
+   border: 1px #13CE66 solid;
+   border-radius: 4px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 16px;
+   font-weight: bold;
+}
+#yr_public {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#yr_public div {
+   text-align: left;
+}
+#yr_Text4 {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#yr_Text4 div {
+   text-align: left;
+}
+#yr_text1 {
+   color: #FFFFFF;
+   font-family: ProximaNova-Regular;
+   font-size: 21px;
+}
+#yr_text2 {
+   color: #FFFFFF;
+   font-family: ProximaNova-Regular;
+   font-size: 21px;
+}
+#yr_text3 {
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 19px;
+}
+#yr_quote1 {
+   height: 81px;
+   left: 480px;
+   position: absolute;
+   top: 88px;
+   width: 692px;
+   z-index: 1;
+}
+#yr_Text4 {
+   height: 22px;
+   left: 992px;
+   position: absolute;
+   top: 571px;
+   width: 275px;
+   z-index: 7;
+}
+#yr_public {
+   height: 24px;
+   left: 483px;
+   position: absolute;
+   top: 422px;
+   width: 692px;
+   z-index: 6;
+}
+#yr_quote2 {
+   height: 24px;
+   left: 480px;
+   position: absolute;
+   top: 199px;
+   width: 692px;
+   z-index: 3;
+}
+#signup1 {
+   height: 49px;
+   left: 483px;
+   position: absolute;
+   top: 315px;
+   width: 147px;
+   z-index: 4;
+}
+#yr_chef2 {
+   height: 511px;
+   left: 47px;
+   position: absolute;
+   top: 104px;
+   width: 351px;
+   z-index: 0;
+}
+#yr_Line1 {
+   height: 33px;
+   left: 348px;
+   position: absolute;
+   top: 120px;
+   width: 70px;
+   z-index: 2;
+}
+#signin1 {
+   height: 49px;
+   left: 721px;
+   position: absolute;
+   top: 315px;
+   width: 147px;
+   z-index: 5;
+}
+#yr_text0 {
+   color: #FFFFFF;
+   font-family: ProximaNova-Regular;
+   font-size: 24px;
+}
+/*CSS FOR SIGNUP PAGE*/
+#yr_quote {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#yr_quote div {
+   text-align: left;
+}
+#yr_signupform {
+   background-color: #13CE66;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+}
+#name {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+   border-radius: 4px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#name:focus {
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#email {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+   border-radius: 4px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#email:focus {
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#password {
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+   border-radius: 4px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   vertical-align: middle;
+}
+#password:focus {
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#signupbutton {
+   background-color: #FF9052;
+   background-image: none;
+   border: 1px #FF9052 solid;
+   border-radius: 4px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+}
+#yr_signup {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#yr_signup div {
+   text-align: left;
+}
+#yr_desc1 {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#yr_desc1 div {
+   text-align: center;
+}
+#yr_accounttext {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#yr_accounttext div {
+   text-align: left;
+}
+#chef {
+   border: 0px #000000 solid;
+   height: 100%;
+   left: 0;
+   padding: 0px 0px 0px 0px;
+   top: 0;
+   width: 100%;
+}
+#line {
+   border-width: 0;
+   height: 39px;
+   width: 81px;
+}
+#yr_home {
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#yr_home div {
+   text-align: left;
+}
+#yr_line {
+   height: 31px;
+   left: 931px;
+   position: absolute;
+   top: 149px;
+   width: 73px;
+   z-index: 10;
+}
+#yr_text1 {
+   color: #000000;
+   font-family: Arial;
+   font-size: 29px;
+}
+#yr_chef {
+   height: 386px;
+   left: 810px;
+   position: absolute;
+   top: 128px;
+   width: 386px;
+   z-index: 9;
+}
+#yr_text2 {
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 17px;
+}
+#yr_text3 {
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 15px;
+}
+#yr_text4 {
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 16px;
+}
+#yr_accounttext {
+   height: 17px;
+   left: 32px;
+   position: absolute;
+   top: 377px;
+   width: 305px;
+   z-index: 6;
+}
+#yr_signup {
+   height: 34px;
+   left: 117px;
+   position: absolute;
+   top: 20px;
+   width: 111px;
+   z-index: 4;
+}
+#yr_signinform {
+   height: 403px;
+   left: 242px;
+   position: absolute;
+   top: 111px;
+   width: 345px;
+   z-index: 7;
+}
+#yr_signupform {
+   height: 436px;
+   left: 242px;
+   position: absolute;
+   top: 111px;
+   width: 345px;
+   z-index: 8;
+}
+#yr_quote {
+   height: 24px;
+   left: 677px;
+   position: absolute;
+   top: 120px;
+   width: 692px;
+   z-index: 7;
+}
+#email {
+   height: 30px;
+   left: 32px;
+   line-height: 30px;
+   position: absolute;
+   top: 190px;
+   width: 270px;
+   z-index: 1;
+}
+#yr_home {
+   height: 18px;
+   left: 1244px;
+   position: absolute;
+   top: 14px;
+   width: 106px;
+   z-index: 11;
+}
+#yr_desc1 {
+   height: 38px;
+   left: 34px;
+   position: absolute;
+   text-align: center;
+   top: 73px;
+   width: 278px;
+   z-index: 5;
+}
+#password {
+   height: 30px;
+   left: 32px;
+   line-height: 30px;
+   position: absolute;
+   top: 251px;
+   width: 270px;
+   z-index: 2;
+}
+#signupbutton {
+   height: 40px;
+   left: 34px;
+   position: absolute;
+   top: 310px;
+   width: 280px;
+   z-index: 3;
+}
+#name {
+   height: 30px;
+   left: 32px;
+   line-height: 30px;
+   position: absolute;
+   top: 132px;
+   width: 270px;
+   z-index: 0;
+}
+#yr_text0 {
+   color: #FFFFFF;
+   font-family: ProximaNova-Regular;
+   font-size: 21px;
+}
