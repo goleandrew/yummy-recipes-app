@@ -21,3 +21,10 @@ awesome food recipes----- .
 3. Users create, view, update and delete recipe categories
 4. Users can create, view, update or delete recipes in existing
 categories
+
+# HOW TO RUN THE APP: <br />
+To view the frontend of the yummy recipes app click on the link below
+
+https://goleandrew.github.io/yummy-recipes-app
+
+
